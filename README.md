@@ -1,4 +1,4 @@
-# Ansible Role: Filebeat
+# Ansible Role: Filebeat [![Build Status](https://travis-ci.org/jradtilbrook/ansible-role-filebeat.svg?branch=master)](https://travis-ci.org/jradtilbrook/ansible-role-filebeat)
 
 This role installs and configures Filebeat 5.x for the Elastic stack.
 
