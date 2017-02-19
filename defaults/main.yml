@@ -1,0 +1,9 @@
+---
+# prospectors configuration
+filebeat_prospectors: []
+
+# output configuration
+filebeat_output: {}
+
+# general/global config options
+filebeat_general_config: {}

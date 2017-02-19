@@ -1,0 +1,15 @@
+{{ ansible_managed | comment('plain', prefix='#################################', postfix='#################################') }}
+---
+## Log prospectors
+filebeat:
+  prospectors:
+    {{ filebeat_prospectors | to_nice_json }}
+
+
+## Output configuration
+output:
+  {{ filebeat_output | to_nice_json }}
+
+
+## General configuration
+{{ filebeat_general_config | to_nice_json }}
