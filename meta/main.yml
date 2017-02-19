@@ -13,5 +13,5 @@ galaxy_info:
   galaxy_tags:
     - elasticsearch
     - logstash
-    - elastic stack
-    - logstash forwarder
+    - elastic-stack
+    - logstash-forwarder

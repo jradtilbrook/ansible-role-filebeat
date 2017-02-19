@@ -1,9 +1,15 @@
 ---
 # prospectors configuration
-filebeat_prospectors: []
+filebeat_prospectors:
+  - input_type: log
+    paths:
+      - /var/log/*.log
 
 # output configuration
-filebeat_output: {}
+filebeat_output:
+  elasticsearch:
+    hosts:
+      - localhost:9200
 
 # general/global config options
 filebeat_general_config: {}
