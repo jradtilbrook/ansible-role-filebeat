@@ -28,3 +28,9 @@
     group: root
     mode: 0644
   notify: restart filebeat
+
+- name: start and enable filebeat
+  service:
+    name: filebeat
+    state: started
+    enabled: yes
