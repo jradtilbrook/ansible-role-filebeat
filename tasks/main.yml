@@ -4,12 +4,12 @@
     pkg: apt-transport-https
     state: present
 
-- name: add elasticsearch GPG key
+- name: add elasticstack GPG key
   apt_key:
     url: https://artifacts.elastic.co/GPG-KEY-elasticsearch
     state: present
 
-- name: add filebeat repository
+- name: add elasticstack repository
   apt_repository:
     repo: deb https://artifacts.elastic.co/packages/5.x/apt stable main
     state: present
