@@ -10,5 +10,7 @@ output:
   {{ filebeat_output | to_yaml | indent(2) }}
 
 
+{% if filebeat_general_config | length > 0 %}
 ## General configuration
 {{ filebeat_general_config | to_yaml | indent(2) }}
+{% endif %}
