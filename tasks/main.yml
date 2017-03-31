@@ -27,6 +27,7 @@
     owner: root
     group: root
     mode: 0644
+    validate: /usr/bin/filebeat.sh -c %s -configtest
   notify: restart filebeat
 
 - name: start and enable filebeat
