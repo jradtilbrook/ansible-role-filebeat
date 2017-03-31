@@ -1,4 +1,7 @@
 ---
+# change this to `latest` to always get the most up to date version
+filebeat_install_state: present
+
 # prospectors configuration
 filebeat_prospectors:
   - input_type: log

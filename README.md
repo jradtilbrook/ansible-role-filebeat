@@ -23,6 +23,9 @@ Filebeat documentation for the structure and possible outputs.
 the name, extra fields or tags to apply to each event. More info can be found in
 the Filebeat documentation.
 
+`filbeat_install_state`: This is useful for updating Filebeat to newer versions
+after it has already been installed. Use `latest` to achieve this functionality.
+
 
 ## Resources
 
@@ -34,6 +37,9 @@ Documentation related to Filebeat can be found at the links below:
 ## Dependencies
 
 None.
+
+Check out my other roles on [Ansible Galaxy](https://galaxy.ansible.com/jradtilbrook)
+if you are installing the entire Elastic Stack.
 
 
 ## Example Playbook

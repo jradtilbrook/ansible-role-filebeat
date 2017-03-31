@@ -18,7 +18,7 @@
 - name: install filebeat
   apt:
     pkg: filebeat
-    state: present
+    state: "{{ filebeat_install_state }}"
 
 - name: copy filebeat configuration
   template:
